@@ -64,9 +64,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/Data/Dumper/Concise.pm
-/usr/lib/perl5/vendor_perl/5.26.1/Data/Dumper/Concise/Sugar.pm
-/usr/lib/perl5/vendor_perl/5.26.1/Devel/Dwarn.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Data/Dumper/Concise.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Data/Dumper/Concise/Sugar.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Devel/Dwarn.pm
 
 %files dev
 %defattr(-,root,root,-)
