@@ -4,10 +4,10 @@
 #
 Name     : perl-Data-Dumper-Concise
 Version  : 2.023
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Data-Dumper-Concise-2.023.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Data-Dumper-Concise-2.023.tar.gz
-Summary  : 'Less indentation and newlines plus sub deparsing'
+Summary  : Less indentation and newlines plus sub deparsing
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -22,6 +22,7 @@ use Data::Dumper::Concise;
 Summary: dev components for the perl-Data-Dumper-Concise package.
 Group: Development
 Provides: perl-Data-Dumper-Concise-devel = %{version}-%{release}
+Requires: perl-Data-Dumper-Concise = %{version}-%{release}
 
 %description dev
 dev components for the perl-Data-Dumper-Concise package.
