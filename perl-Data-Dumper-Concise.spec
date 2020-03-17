@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Dumper-Concise
 Version  : 2.023
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Data-Dumper-Concise-2.023.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Data-Dumper-Concise-2.023.tar.gz
 Summary  : 'Less indentation and newlines plus sub deparsing'
@@ -85,6 +85,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Data/Dumper/Concise.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Data/Dumper/Concise/Sugar.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Devel/Dwarn.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Data/Dumper/Concise.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Data/Dumper/Concise/Sugar.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Devel/Dwarn.pm
