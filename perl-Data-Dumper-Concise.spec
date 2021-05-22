@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Dumper-Concise
 Version  : 2.023
-Release  : 19
+Release  : 20
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Data-Dumper-Concise-2.023.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Data-Dumper-Concise-2.023.tar.gz
 Summary  : 'Less indentation and newlines plus sub deparsing'
